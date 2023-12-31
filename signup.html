@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&family=Roboto:wght@500&family=Tiro+Bangla&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="heading">
+                    <div class="img1">
+                        <img src="./media/brand-logo.png">
+                    </div>
+                    <h1 id="mainH">বিষয়ভিত্তিক মূল্যায়ন অ্যাপ্লিকেশন </h1>
+                    <p>অনুগ্রহ করে আপনার অ্যাকাউন্টে সাইন ইন করুন এবং অ্যাডভেঞ্চার শুরু করুন</p>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <section class="logIn">             
+                    <h2>Sign Up</h2>
+                    <form>
+                        <div class="form-group">
+                          <label for="sel1"><h5><b>আপনার পদবী নির্বাচন করুন</b></h5></label>
+                          <select class="form-control" id="sel1">
+                            <option>প্রধান শিক্ষক</option>
+                            <option>সহকারী প্রধান-শিক্ষক</option>
+                            <option>শিক্ষক</option>
+                            <option>সহকারী শিক্ষক</option>
+                            <option>অন্যান্য</option>
+                          </select>
+                        </div>
+                      </form>
+                    <h5><b>ই-মেইল</b></h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="৯৮৭৬৫৪৩২১০১" id="usrid" name="username">
+                        </div>
+
+
+                        
+                        <h5><b>ব্যবহারকারী আইডি</b></h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-user-circle-o"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="৯৮৭৬৫৪৩২১০১" id="usrid" name="username">
+                        </div>
+
+                        <h5><b>পিন নম্বর</b></h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-lock" style="font-size: 18px;"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="***********" id="usrname" name="username">
+                        </div>
+
+                        <h5><b>পুনরায় পিন নম্বর দিন</b></h5>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-lock" style="font-size: 18px;"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="***********" id="usrname" name="username">
+                        </div>
+                        <button type="button" class="btn btn-primary py-2 mt-2 btn-block" id="logInbtn">নিবন্ধন করুন</button>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

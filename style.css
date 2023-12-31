@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(./media/WhatsApp\ Image\ 2023-10-04\ at\ 12.20.24_5fded644.jpg);
+    font-weight: 700;
+    background-size: cover;
+}
+
+#switch{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 1%;
+}
+.logIn{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 6px -4px;
+    margin-top: 20%;
+}
+.logIn h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.logIn h5{
+    color: #18b9bc;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.logIn h3{
+    color: #000;
+    font-size: 15px;
+}
+.one1 h4{
+    text-align: right;
+    font-size: 15px;
+    color: #000;
+    margin-top: -6%;
+}
+.xxx{
+    color: #000;
+    font-size: 15px;
+}
+.new a{
+    text-decoration: none;
+}
+.heading{
+    margin-top: 35%;
+    text-align: center;
+}
+.heading img{
+    margin-left: -75%;
+}
+.text-center:hover{
+color: rgb(68, 68, 245);
+}
+.forgetPin{
+float: right;
+}
+.forgetPin:hover{
+    color: rgb(68, 68, 245);
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px){
+    .heading img{
+        margin-left: 3%;
+        margin-top: -29%;
+    }
+    #mainH{
+        font-size: 22px;
+        margin-top: -5%;
+    }
+    p{
+        font-size: 14px;
+    }
+    #secondH{
+        font-size: 22px;
+    }
+    .logIn{
+        margin-top: 1%;
+    }
+    .logIn h5{
+        font-size: 15px;
+    }
+    .logIn h3{
+        font-size: 14px;
+        
+    }
+    #check1{
+        margin-left: -35%;
+        margin-top: px;
+    }
+    option{
+        font-size: 15px;
+    }
+
+}
